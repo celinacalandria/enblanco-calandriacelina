@@ -247,7 +247,28 @@ body{
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
 }
+@keyframes animacion {
+    0% {
+        font-size: 20px;
+        opacity: 0;
+    }
+    50% {
+        font-size: 30px;
+        opacity: 0.5;
+    }
+    100% {
+        font-size: 50px;
+        opacity: 1;
+    }
+}
+
+
 
 /* ****SECTION EVENTOS**** */
 .sectionEventos__opcion1 h4{
